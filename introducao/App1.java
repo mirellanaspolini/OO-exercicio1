@@ -13,7 +13,7 @@ public class App1 {
         livro1.setValor(349f);
         livro1.setEsgotado(false);
         Calendar data1 = GregorianCalendar.getInstance();
-        data1.set(1945,01,01);
+        data1.set(1945,0,01);
         Autor escritor1 = new Autor("Deitel", data1.getTime());
         livro1.setEscritor(escritor1);  
         
@@ -24,7 +24,7 @@ public class App1 {
         livro2.setValor(165f);
         livro2.setEsgotado(false);
         Calendar data2 = GregorianCalendar.getInstance();
-        data2.set(1955,02,27);
+        data2.set(1955,01,27);
         Autor escritor2 = new Autor("Grady Booch", data2.getTime());
         livro2.setEscritor(escritor2);
 
